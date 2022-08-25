@@ -1,0 +1,69 @@
+@media (max-width: 992px) {
+
+    body{
+        overflow-x: hidden;
+        align-items: center;
+        margin-left: -15%;
+    }
+
+
+    .column-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+
+
+    .column-left {
+        width: 90vw;
+        background-color: #f8bbd0;
+      }
+
+    .column-right {
+        width: 90vw;
+        background-color: #f8bbd0;
+      }
+
+    }
+    .card{
+        background-color: #ffedff;
+    }
+
+    .title{
+        font-size: 2vh;
+        display: flex;
+        justify-content: center;
+    
+        font-family: 'Raleway';
+        font-weight: bolder;
+        
+    }
+    
+    .title1{
+        font-size: 2vh;
+        color: #bf5f82;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        font-family: 'Raleway';
+    }
+
+    a {
+        text-decoration: none;
+        color:#bf5f82
+    }
+    .links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .foto{
+        width: 150px;
+        height: 150px;
+        justify-self: center; 
+        
+        object-fit: cover;
+        border-radius: 100%;
+      }
+    
